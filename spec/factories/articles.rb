@@ -2,7 +2,7 @@ FactoryBot.define do
   factory :article do
     user nil
     team nil
-    title 'MyString'
-    content 'MyText'
+    title { "MyText" }
+    content { "MyText" }
   end
 end

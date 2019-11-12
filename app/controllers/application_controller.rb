@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  before_action :init_team, if: :user_signed_in?
+#  before_action :init_team, if: :user_signed_in?
   before_action :set_working_team, if: :user_signed_in?
 
   def change_keep_team(user, current_team)
